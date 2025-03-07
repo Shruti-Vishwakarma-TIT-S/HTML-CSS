@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+}
+
+.col-1 {
+    background: #8eb6d1;
+    flex: 1;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.content>article {
+    flex: 3;
+    min-height: 60vh;
+}
+
+.content>aside {
+    background: whitesmoke;
+    flex: 1;
+}
+
+header,
+footer {
+    background: rgb(226, 145, 30);
+    height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+    padding: 1em;
+}
